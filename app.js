@@ -42,7 +42,6 @@ submit.addEventListener("click", ()=>{
     if(isVaildEmail){
         //Send mail to Users Later
         //const msgBody = document.getElementById("msg-body");
-        console.log('username', username);
         alert(`Welcome ${username}, I have received your message and I'll reply ASAP 😊`);
     }
 });
