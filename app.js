@@ -1,7 +1,7 @@
 const hamburger = document.querySelector('#hamburger');
 const menu = document.querySelector('#menu');
 const hLinks = document.querySelectorAll("#hLink");
-const body = document.querySelector("body")
+const body = document.querySelector("body");
 const refLinks = document.querySelectorAll("#refLinks");
 const mode = document.querySelector("#mode");
 const submit = document.querySelector("#submit");
@@ -19,17 +19,17 @@ hLinks.forEach(link=>{
     })
 });
 
-refLinks.forEach(link=>{
-    link.addEventListener("mouseover", ()=>{
-        link.style.color = 'white'
-    })
-});
+// refLinks.forEach(link=>{
+//     link.addEventListener("mouseover", ()=>{
+//         link.style.color = 'white';
+//     })
+// });
 
-refLinks.forEach(link=>{
-    link.addEventListener("mouseout", ()=>{
-        link.style.color = 'rgb(79 70 229)'
-    })
-});
+// refLinks.forEach(link=>{
+//     link.addEventListener("mouseout", ()=>{
+//         link.style.color = 'rgb(79 70 229)';
+//     })
+// });
 
 mode.addEventListener("click", ()=>{
     body.classList.toggle("dark")
